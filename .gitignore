@@ -1,0 +1,23 @@
+# --- Media & transcription artifacts -------------------------------------
+# Media files are large/binary — keep them out of git. The project structure
+# (folders + manifests) is versioned via .gitkeep files instead.
+projects/**/media/*
+!projects/**/media/.gitkeep
+
+# Whisper model cache
+.cache/
+*.pt
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- OS / editor -----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,3 @@
+# Vidcribe Python dependencies.
+# Local speech-to-text. Pulls in torch automatically.
+openai-whisper>=20231117
